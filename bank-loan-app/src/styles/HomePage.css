@@ -1,0 +1,84 @@
+/* HomePage.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .homepage-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .homepage-header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .homepage-main {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-main h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .homepage-footer {
+    margin-top: 20px;
+  }
+  
+  .homepage-footer .btn {
+    font-size: 0.9em;
+  }
+  
